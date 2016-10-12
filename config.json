@@ -1,0 +1,20 @@
+{
+  "ios": {
+    "token": {
+      "key": "APNS_AuthKey_file.p8",
+      "keyId": "10digitsId",
+      "teamId": "10digitsId"
+    },
+    "production": false,
+    "appId": "com.app.id",
+    "deviceTokens": [
+      "device_token"
+    ]
+  },
+  "android": {
+    "authKey": "key= auth_key",
+    "deviceTokens": [
+      "device_token"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "push-debug-tool",
+  "version": "1.0.0",
+  "description": "Simple app to send iOS and Android push notifications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alessandro 'membersheep' Maroso",
+  "license": "MIT",
+  "dependencies": {
+    "apn": "^2.1.1",
+    "prompt": "^1.0.0",
+    "request": "^2.75.0"
+  }
+}
