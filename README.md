@@ -1,4 +1,6 @@
 # push-testing-tool
+![Dependencies](https://david-dm.org/membersheep/push-testing-tool.svg)
+
 This simple tool allows you to send simple iOS and Android push notifications to your testing devices.
 ## Configuration
 Before starting the application you should fill the config.json with your app's information. Here's an example with some useful informations:
