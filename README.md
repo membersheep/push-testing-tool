@@ -8,7 +8,7 @@ Before starting the application you should fill the config.json with your app's 
     "token": {
     // Create and download an APNs Auth Key in your developer.apple.com account page.
     // This is not app-dependent and you can use the same key for multiple apps.
-      "key": "APNS_AuthKey_file.p8", 
+      "key": "APNS_AuthKey_file.p8",
     // You can read the key id in the auth key filename after creating it.
       "keyId": "10digitsId",
     // You can find your teamID in your developer.apple.com account page, under Account->Membership.
@@ -23,8 +23,8 @@ Before starting the application you should fill the config.json with your app's 
     ]
   },
   "android": {
-  // This is the web api key of you project. You can find it the firebase console in your project settings
-    "authKey": "key= auth_key",
+  // This is the web api key of you project. You can find it the firebase console in your project settings.
+    "authKey": "auth_key",
   // These are the registration ids generated when you accept to receive push notifications from your app in your device.
     "deviceTokens": [
       "device_token"
@@ -33,4 +33,6 @@ Before starting the application you should fill the config.json with your app's 
 }
 ```
 ## Usage
-Start the app with ```npm start``` and follow the prompt messages.
+1. Install the dependencies ```npm install```
+2. Start the app ```npm start``` and
+3. Follow the prompt messages.

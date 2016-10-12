@@ -21,7 +21,7 @@ function sendAndroidNotification(title, text) {
     method: 'POST',
     uri: 'https://fcm.googleapis.com/fcm/send',
     headers: {
-      'Authorization': config.android.authKey,
+      'Authorization': "key= "+config.android.authKey,
       'Content-Type': 'application/json'
     },
     json: {
